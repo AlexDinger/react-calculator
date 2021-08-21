@@ -1,0 +1,13 @@
+.calculatorStyle {
+    min-width: 300px;
+    min-height: 600px;
+    height: 700px;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid rgb(78,78,78);
+
+
+}

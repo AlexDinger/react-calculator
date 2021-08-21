@@ -1,0 +1,40 @@
+.button {
+    width: 25%;
+    height: 20%;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0;
+    border-bottom: 1px solid rgb(78,78,78);
+    border-right: 1px solid rgb(78,78,78);
+}
+
+.button:hover {
+    filter: brightness(0.9);
+}
+
+.button:nth-child(4n) {
+    border-right: none;
+    background-color: sandybrown;
+    color: white
+}
+
+.button:nth-child(n+19) {
+    border-right: none;
+    background-color: sandybrown;
+    color: white;
+}
+
+.button:nth-last-child(n+17) {
+    background-color: slategray;
+    color: white;
+}
+
+.button:nth-child(n+17) {
+    border-bottom: none;
+}
+
+.zero {
+    width: 50%;
+}
+
